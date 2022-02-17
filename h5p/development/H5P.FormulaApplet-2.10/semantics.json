@@ -1,9 +1,11 @@
-[{
+[
+  {
     "name": "formulaAppletMode",
     "type": "select",
     "label": "Automatic/Manual Mode",
     "description": "Result is computed automatically or has to be specified by the author.",
-    "options": [{
+    "options": [
+      {
         "value": "auto",
         "label": "Result is computed by the Formula Applet"
       },
@@ -18,27 +20,17 @@
     "name": "fa_applet",
     "type": "text",
     "label": "Expression (Formula Applet Editor)",
-    "description": " ",
+    "description": "the FormulaAppletEditor Widget ",
     "optional": true,
     "default": "default",
     "widget": "formulaAppletEditor"
   },
   {
     "label": "Expression (LATEX)",
-    "name": "TEX_expression",
+    "name": "texexpression",
     "type": "text",
-    "default": "7 +\\class{inputfield}{x} = 11",
+    "default": "7 +{{result}} = 11",
     "description": "Use this field if you are familiar with LATEX"
-  },
-  {
-    "label": "Text for \"Check\" button",
-    "importance": "low",
-    "name": "checkAnswer",
-    "type": "text",
-    "default": "Check",
-    "common": true,
-    "optional": true,
-    "info": "dummy (not used)"
   },
   {
     "name": "formulaAppletPhysics",
@@ -56,7 +48,7 @@
   },
   {
     "label": "Formula Applet Id",
-    "name": "id",
+    "name": "dom_id",
     "type": "text",
     "default": "new_id",
     "description": "Id of the Formula Applet - has to be unique"
