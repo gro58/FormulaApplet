@@ -1,4 +1,5 @@
 # FormulaApplet
+* will soon be replaced by [FormulaApplet-H5P](https://github.com/gro58/FormulaApplet-H5P)
 * lets you create math or physics exercises on HTML pages or in Wikis. 
 * You can provide an expression as solution, and FormulaApplet checks if your solution is right or wrong.
 * Algebraic equivalent solutions are also accepted.
